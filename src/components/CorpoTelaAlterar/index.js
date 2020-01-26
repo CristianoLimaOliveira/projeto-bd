@@ -13,7 +13,7 @@ class CorpoTelaAlterar extends Component{
     render(){
         return(
             <div className="corpoTelaAlterar">
-                <register id="registro">
+                <div id="alterar">
                     <div className="forms">
                         <label id="lbl_nome">Nome:</label>
                         <input id="txt_nome" type="text"></input>
@@ -38,7 +38,7 @@ class CorpoTelaAlterar extends Component{
                     <div className="forms">
                         <a href="btn_alterar">Alterar</a>
                     </div>
-                </register>
+                </div>
             </div>
         );
     }

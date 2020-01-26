@@ -1,0 +1,83 @@
+.corpoTelaBuscar {
+    max-width: 300px;
+    margin: 100px auto 0;
+    background: #fff;
+    border-radius: 15px;
+    padding-left: 180px;
+    padding-right: 180px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    opacity: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.6s;
+}
+
+.corpoTelaBuscar:hover{
+    max-width: 300px;
+    margin: 100px auto 0;
+    background: rgb(231, 170, 247);
+    border-radius: 15px;
+    padding-left: 180px;
+    padding-right: 180px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    opacity: 100%;
+    color: rgb(70, 4, 78);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forms{
+    margin-bottom: 30px;
+}
+
+.forms label{
+    font-size: 18px;   
+    font-weight: bold;
+}
+
+.forms input{
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    block-size: 25px;
+    margin-block-start: 6px;
+    inline-size: 250px;
+    min-block-size: 28px;
+    font-size: 15px;
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forms a{
+    height: 42px;
+    border-radius: 5px;
+    border: 2px solid rgb(95, 2, 95);
+    background: #8B008B;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forms a:active{
+    height: 42px;
+    border-radius: 5px;
+    border: 2px solid rgb(95, 2, 95);
+    background: rgb(190, 41, 190);
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

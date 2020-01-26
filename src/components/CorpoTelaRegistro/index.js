@@ -3,7 +3,7 @@ import './styles.css';
 
 const CorpoTelaRegistro = () => (
     <div className="corpoTelaRegistro">
-        <register id="registro">
+        <div id="registro">
             <div className="forms">
                 <label id="lbl_nome">Nome:</label>
                 <input id="txt_nome" type="text"></input>
@@ -23,7 +23,7 @@ const CorpoTelaRegistro = () => (
             <div className="forms">
                 <a href="btn_registrar">Registrar</a>
             </div>
-        </register>
+        </div>
     </div>
 );
 

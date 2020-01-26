@@ -3,7 +3,7 @@ import './styles.css';
 
 const CorpoTelaLogin = () => (
     <div className="corpoTelaLogin">
-        <register id="registro">
+        <div id="login">
             <div className="forms">
                 <label id="lbl_email">E-mail:</label>
                 <input id="txt_email" type="text"></input>
@@ -14,7 +14,7 @@ const CorpoTelaLogin = () => (
             </div><div className="forms">
                 <a href="btn_registrar">Entrar</a>
             </div>
-        </register>
+        </div>
     </div>
 );
 
