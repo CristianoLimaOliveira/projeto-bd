@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import './styles.css';
-import Header from './components/Header';
-import Main from './pages/Main';
+import TelaRegistro from './pages/TelaRegistro';
+import TelaLogin from './pages/TelaLogin';
+import TelaAlterar from './pages/TelaAlterar';
 
 const App = () => (
   <div className="App">
-    <Header />
-    <Main />
+    <TelaAlterar />
   </div>
 );
 

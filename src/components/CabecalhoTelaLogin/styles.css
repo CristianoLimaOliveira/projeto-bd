@@ -1,4 +1,4 @@
-.header {
+.cabecalhoTelaLogin {
     width: 100%;
     height: 60px;
     background: #8B008B;
@@ -10,7 +10,7 @@
     align-items: center;
 }
 
-.header a{
+.cabecalhoTelaLogin a{
     color: #fff;
     text-decoration: none;
     font-size: 17px;

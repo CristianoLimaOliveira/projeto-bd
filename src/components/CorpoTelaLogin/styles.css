@@ -1,4 +1,4 @@
-.telaInicial {
+.corpoTelaLogin {
     max-width: 300px;
     margin: 100px auto 0;
     background: #fff;
@@ -14,7 +14,7 @@
     transition: all 0.6s;
 }
 
-.telaInicial:hover{
+.corpoTelaLogin:hover{
     max-width: 300px;
     margin: 100px auto 0;
     background: rgb(231, 170, 247);

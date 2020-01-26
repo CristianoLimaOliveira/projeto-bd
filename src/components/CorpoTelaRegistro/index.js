@@ -1,8 +1,8 @@
 import React from 'react';
 import './styles.css';
 
-const TelaInicial = () => (
-    <div className="telaInicial">
+const CorpoTelaRegistro = () => (
+    <div className="corpoTelaRegistro">
         <register id="registro">
             <div className="forms">
                 <label id="lbl_nome">Nome:</label>
@@ -27,4 +27,4 @@ const TelaInicial = () => (
     </div>
 );
 
-export default TelaInicial;
+export default CorpoTelaRegistro;
