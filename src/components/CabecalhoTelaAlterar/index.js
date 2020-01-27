@@ -3,7 +3,7 @@ import './styles.css';
 
 const CabecalhoTelaAlterar = () => (
     <div className="cabecalhoTelaAlterar">
-        <a href="btn_voltar">Voltar</a>
+        <a href="/inicio">Voltar</a>
     </div>
 );
 

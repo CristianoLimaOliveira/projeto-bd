@@ -1,12 +1,15 @@
-*{
-    margin: 0;
-    padding: 0;
-    outline: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
 }
 
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    background: url("./images/ori_3490782_8dc6896c625fab15e08d1a721f27674f082dd50d_cartoon-solar-system-scheme-planets-in-planetary-orbits-around-sun-a.jpg");
-    color: #333;
+body {
+  font-family: "Roboto", sans-serif;
+  background: url("./images/background.jpg") fixed;
+  color: #333;
+  height: 100%;
 }
