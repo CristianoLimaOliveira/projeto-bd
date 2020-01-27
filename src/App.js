@@ -8,7 +8,7 @@ import TelaBuscar from './pages/TelaBuscar';
 
 const App = () => (
   <div className="App">
-    <TelaBuscar  />
+    <TelaLogin />
   </div>
 );
 
