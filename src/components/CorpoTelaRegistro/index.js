@@ -21,7 +21,7 @@ const CorpoTelaRegistro = () => (
                 <input id="txt_confirmarSenha" type="text"></input>
             </div>
             <div className="forms">
-                <a href="btn_registrar">Registrar</a>
+                <a href="/">Registrar</a>
             </div>
         </div>
     </div>

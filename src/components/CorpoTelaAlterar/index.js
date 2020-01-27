@@ -1,17 +1,17 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import './styles.css';
 
-class CorpoTelaAlterar extends Component{
-    constructor(props){
+class CorpoTelaAlterar extends Component {
+    constructor(props) {
         super(props)
-        this.state={
+        this.state = {
             check1: true,
             check2: false
         }
     }
 
-    render(){
-        return(
+    render() {
+        return (
             <div className="corpoTelaAlterar">
                 <div id="alterar">
                     <div className="forms">
@@ -36,7 +36,7 @@ class CorpoTelaAlterar extends Component{
                         <input type="checkbox" name='check2' onChange={this.onCheckChange} />NÃO<br />
                     </div>
                     <div className="forms">
-                        <a href="btn_alterar">Alterar</a>
+                        <a href="/inicio">Alterar</a>
                     </div>
                 </div>
             </div>
