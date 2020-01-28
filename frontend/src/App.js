@@ -10,6 +10,7 @@ import TelaRegistro from './pages/TelaRegistro';
 import TelaInicial from './pages/TelaInicial';
 import TelaAlterar from './pages/TelaAlterar';
 import TelaBuscar from './pages/TelaBuscar';
+import TelaListagem from './pages/TelaListagem';
 
 import './styles.css';
 
@@ -22,6 +23,9 @@ export default function App() {
         </Route>
         <Route path="/inicio">
           <TelaInicial />
+        </Route>
+        <Route path="/listagem">
+          <TelaListagem />
         </Route>
         <Route path="/alterar">
           <TelaAlterar />
