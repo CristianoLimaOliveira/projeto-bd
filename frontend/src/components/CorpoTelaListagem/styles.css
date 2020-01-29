@@ -1,0 +1,35 @@
+.corpoTelaListagem {
+  max-width: 300px;
+  margin: 100px auto 0;
+  background: #fff;
+  border-radius: 15px;
+  padding-left: 180px;
+  padding-right: 180px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  opacity: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.6s;
+}
+
+.corpoTelaListagem:hover {
+  max-width: 300px;
+  margin: 100px auto 0;
+  background: rgb(231, 170, 247);
+  border-radius: 15px;
+  padding-left: 180px;
+  padding-right: 180px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  opacity: 100%;
+  color: rgb(70, 4, 78);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.corpoTelaListagem h1 {
+  text-align: center;
+}
