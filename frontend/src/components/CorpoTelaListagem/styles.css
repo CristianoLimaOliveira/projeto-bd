@@ -1,22 +1,6 @@
-.container {
-  display: flex;
-  flex-direction: row;
-  overflow: auto;
-}
-
-.divider {
-  padding-left: 25px;
-}
-
-::-webkit-scrollbar {
-  width: 0px;
-}
-
 .corpoTelaListagem {
   max-width: 300px;
-  margin-top: 100px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin: 100px auto 0;
   background: #fff;
   border-radius: 15px;
   padding-left: 180px;
@@ -32,9 +16,7 @@
 
 .corpoTelaListagem:hover {
   max-width: 300px;
-  margin-top: 100px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin: 100px auto 0;
   background: rgb(231, 170, 247);
   border-radius: 15px;
   padding-left: 180px;
@@ -48,54 +30,6 @@
   align-items: center;
 }
 
-.forms {
-  margin-bottom: 30px;
-}
-
-.forms label {
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.forms input {
-  border-radius: 10px;
-  padding-left: 5px;
-  padding-right: 5px;
-  block-size: 25px;
-  margin-block-start: 6px;
-  inline-size: 250px;
-  min-block-size: 28px;
-  font-size: 15px;
-  background-color: rgb(245, 245, 245);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.forms a {
-  height: 42px;
-  border-radius: 5px;
-  border: 2px solid rgb(95, 2, 95);
-  background: #8b008b;
-  color: #fff;
-  text-decoration: none;
-  font-size: 16px;
-  font-weight: bold;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.forms a:active {
-  height: 42px;
-  border-radius: 5px;
-  border: 2px solid rgb(95, 2, 95);
-  background: rgb(190, 41, 190);
-  color: #fff;
-  text-decoration: none;
-  font-size: 16px;
-  font-weight: bold;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.corpoTelaListagem h1 {
+  text-align: center;
 }
